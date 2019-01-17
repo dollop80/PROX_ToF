@@ -1,6 +1,10 @@
 # Copter Obstacle Avoidance for Ardupilot - PROX_ToF
 The obstacle avoidance module is based on ToF (Time of Flight) distance sensors VL53L1. The module is rather small and lightweight so it can fit even 140mm frame
 
+<img src="http://i.piccy.info/i9/1f9c4bb00d5dee2d1902c0de8b1e3bcd/1547496790/388345/1289476/DSCF5705.jpg" width="300">
+
+You can read about obstacle avoidance in Ardupilot [here](http://ardupilot.org/dev/docs/code-overview-object-avoidance.html)
+
 ## What do you need:
 - PROX_ToF PCB and parts
 - Ardupilot compatible flight controller (Pixhawk, Omnibus, Pixracer, etc)
@@ -9,12 +13,12 @@ The obstacle avoidance module is based on ToF (Time of Flight) distance sensors 
 - Your favorite quad, tri, hexa, octo :)
 
 ## Preparing Hardware:
-- Assemble your PROX_ToF module and flash a bootloader using AVR ISP and Arduino IDE (See Preparing Software)
-- Print a case
+- Assemble your [PROX_ToF module](https://github.com/dollop80/PROX_ToF/tree/master/HW) and flash a bootloader using AVR ISP and Arduino IDE (See Preparing Software)
+- Print a [case](https://github.com/dollop80/PROX_ToF/tree/master/3D)
 - Prepare all the nessesary connectors and wires
 - Put your optical flow sensor on the bottom of the case
 - Connect the module to flight controller
-[Connection diagram](http://ixbt.photo/photo/259904/60047adsphykfW1/1266301w.jpg)]
+[Connection diagram](http://ixbt.photo/photo/259904/60047adsphykfW1/1266301w.jpg)
 
 ## Preparing Software:
 - Flash a bootloader using AVR ISP and Arduino IDE if you haven't done it yet
